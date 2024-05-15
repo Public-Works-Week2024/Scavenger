@@ -18,6 +18,14 @@ function App() {
     const savedStations = localStorage.getItem('stations');
     return savedStations ? JSON.parse(savedStations) : {
       station1: false,
+      station2: false,
+      station3: false,
+      station4: false,
+      station5: false,
+      station6: false,
+      station32: false,
+      station42: false,
+
      
     };
   });
@@ -31,10 +39,6 @@ function App() {
     station6: "Have Lunch",
     station32: "Hint 1",
     station42: "Hint 1",
-    station52: "Hint 1",
-    station62: "Hint 1",
-    station72: "Hint 1",
-    station82: "Hint 1",
   };
 
   const [isRegistered, setIsRegistered] = useState(() => {
@@ -68,12 +72,11 @@ function App() {
   const handleSubmit = () => {
 
     console.log("Submitting:", user, stations);
-    if (Math.random() <= 0.99) {
-
-      fetch('https://studentinfoapi.countygp.ab.ca/api/studentinfo', {
+    if (Math.random() <= 0.9) {
+console.log('TEST',user.phone)
+      fetch('https://studentinfoapi.countygp.ab.ca/api/studentinfo/'+user.phone, {
         method: 'POST',
         mode:'no-cors',
-        body: JSON.stringify({"PhoneNumber":"46"})
       })
       .then(response => response.json())
       .then(data => {
@@ -82,10 +85,8 @@ function App() {
       })
       .catch((error) => {
         console.error('Error:', error);
-        alert('Submission failed!');
       });
     } else {
-      alert('Submission skipped (90% chance).');
     }
 
     
@@ -97,6 +98,14 @@ function App() {
     setUser({ phone: '' });
     setStations({
       station1: false,
+      station2: false,
+      station3: false,
+      station4: false,
+      station5: false,
+      station6: false,
+      station32: false,
+      station42: false,
+      
       
     });
 
