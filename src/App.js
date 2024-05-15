@@ -72,11 +72,7 @@ function App() {
 
       fetch('https://studentinfoapi.countygp.ab.ca/api/studentinfo', {
         method: 'POST',
-        headers: {
-            "Access-Control-Allow-Headers" : "Content-Type",
-            "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
-        },
+        mode:'no-cors',
         body: JSON.stringify({"PhoneNumber":"46"})
       })
       .then(response => response.json())
