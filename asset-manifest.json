@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Test/static/css/main.05959ef3.css",
-    "main.js": "/Test/static/js/main.0ae475ec.js",
-    "static/media/topimage.png": "/Test/static/media/topimage.f8b67678879f45622322.png",
-    "static/media/bottomImage.jpg": "/Test/static/media/bottomImage.6671b421232bbdca2fd4.jpg",
-    "static/media/PatrickHand.ttf": "/Test/static/media/PatrickHand.ec54a049bdef4be52511.ttf",
-    "static/media/Dinokids.ttf": "/Test/static/media/Dinokids.5a449c0e3132e5e7716c.ttf",
-    "index.html": "/Test/index.html",
-    "main.05959ef3.css.map": "/Test/static/css/main.05959ef3.css.map",
-    "main.0ae475ec.js.map": "/Test/static/js/main.0ae475ec.js.map"
+    "main.css": "/Scavenger/static/css/main.1801c3d7.css",
+    "main.js": "/Scavenger/static/js/main.b87d6111.js",
+    "static/media/topimage.png": "/Scavenger/static/media/topimage.f8b67678879f45622322.png",
+    "static/media/bottomImage.jpg": "/Scavenger/static/media/bottomImage.6671b421232bbdca2fd4.jpg",
+    "static/media/PatrickHand.ttf": "/Scavenger/static/media/PatrickHand.ec54a049bdef4be52511.ttf",
+    "static/media/Dinokids.ttf": "/Scavenger/static/media/Dinokids.5a449c0e3132e5e7716c.ttf",
+    "index.html": "/Scavenger/index.html",
+    "main.1801c3d7.css.map": "/Scavenger/static/css/main.1801c3d7.css.map",
+    "main.b87d6111.js.map": "/Scavenger/static/js/main.b87d6111.js.map"
   },
   "entrypoints": [
-    "static/css/main.05959ef3.css",
-    "static/js/main.0ae475ec.js"
+    "static/css/main.1801c3d7.css",
+    "static/js/main.b87d6111.js"
   ]
 }
