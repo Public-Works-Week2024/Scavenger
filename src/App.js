@@ -18,13 +18,13 @@ function App() {
     const savedStations = localStorage.getItem('stations');
     return savedStations ? JSON.parse(savedStations) : {
       station1: false,
-      // station2: false,
-      // station3: false,
-      // station4: false,
-      // station5: false,
-      // station6: false,
-      // station32: false,
-      // station42: false,
+      station2: false,
+      station3: false,
+      station4: false,
+      station5: false,
+      station6: false,
+      station32: false,
+      station42: false,
 
      
     };
@@ -75,7 +75,7 @@ function App() {
     setIsModalOpen(true);
 
     console.log("Submitting:", user, stations);
-    if (Math.random() <= 0.9) {
+    if (Math.random() <= 0.4) {
       fetch('https://studentinfoapi.countygp.ab.ca/api/studentinfo/'+user.phone, {
         method: 'POST',
         mode:'no-cors',
@@ -100,13 +100,13 @@ function App() {
     setUser({ phone: '' });
     setStations({
       station1: false,
-      // station2: false,
-      // station3: false,
-      // station4: false,
-      // station5: false,
-      // station6: false,
-      // station32: false,
-      // station42: false,
+      station2: false,
+      station3: false,
+      station4: false,
+      station5: false,
+      station6: false,
+      station32: false,
+      station42: false,
       
       
     });
