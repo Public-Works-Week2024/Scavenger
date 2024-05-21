@@ -32,13 +32,13 @@ function App() {
 
   const STATION_NAMES = {
     station1: "Recycle Station",
-    station2: "Drone Station",
+    station2: "Beautiful Wounding Tooth",
     station3: "Visit the Grader",
     station4: "Check out the Excavator",
     station5: "Learn about TU Jobs",
     station6: "Have Lunch",
-    station32: "Hint 1",
-    station42: "Hint 1",
+    station32: "Pipestone Creek",
+    station42: "Family History",
   };
 
   const [isRegistered, setIsRegistered] = useState(() => {
