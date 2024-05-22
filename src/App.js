@@ -75,7 +75,7 @@ function App() {
     setIsModalOpen(true);
 
     console.log("Submitting:", user, stations);
-    if (Math.random() <= 0.4) {
+    if (Math.random() <= 2) {
       fetch('https://studentinfoapi.countygp.ab.ca/api/studentinfo/'+user.phone, {
         method: 'POST',
         mode:'no-cors',
