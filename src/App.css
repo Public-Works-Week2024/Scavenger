@@ -1,7 +1,3 @@
-@font-face {
-  font-family: 'DinoKids';
-  src: url('../fonts/Dinokids.ttf') format('truetype');
-}
 
 @font-face {
   font-family: 'PatrickHand';
@@ -62,14 +58,14 @@
   max-width: 350px;
   background-color: #FF8C42;
   color: white;
-  font-family: 'DinoKids', sans-serif;
+  font-family: 'PatrickHand', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-decoration: none;
   padding: 20px 40px;
   border: none;
   border-radius: 25px;
-  font-size: 2em;
+  font-size: 2.2em;
   cursor: pointer;
   z-index: 10;
   box-shadow: 0 10px 0 #CC5200, 0 10px 10px rgba(0, 0, 0, 0.25);
@@ -80,14 +76,14 @@
   position: relative;
   background-color: #FF8C42;
   color: white;
-  font-family: 'DinoKids', sans-serif;
+  font-family: 'PatrickHand', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-decoration: none;
   padding: 10px 20px;
   border: none;
   border-radius: 25px;
-  font-size: 1em;
+  font-size: 2.2em;
   cursor: pointer;
   transition: transform 0.1s, box-shadow 0.1s;
 }
@@ -249,7 +245,7 @@ input {
   text-align: center;
   animation-name: slideIn;
   animation-duration: 0.5s;
-  font-family: 'DinoKids', sans-serif;
+  font-family: 'PatrickHand', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius:20px;
